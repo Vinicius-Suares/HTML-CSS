@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body{
+    background-color: #9ff8d2;
+    font: normal bold 1em sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom , #40E36E, #1C6330);
+    padding: 5px 10px 10px 10px;
+    color: white;
+    margin: -10px;
+}
+header > h1{
+    text-align: center;
+}
+header > h2{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+header > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1px;
+}
+header > a:hover{
+    background-color:#154A24 ;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+main{
+    margin: -20px 220px 10px 220px;
+    background-color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 30px black;
+}
+section#historia > h1{
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 10px;
+    color: #1C6330;
+}
+section#historia > p{
+    text-align: left;
+    margin: 0px 10px 0px 10px;
+}
+section#historia > p > a{
+    text-decoration: none;
+    color: #1C6330;
+}
+section#primeira > h1{
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    background-color: #b4f7da9f ;
+    margin: 10px 10px 0px 10px;
+    color: #1C6330;
+}
+section#primeira > p {
+    text-align: left;
+    padding:0px 1px 0px 10px;
+}
+section#primeira > p > a{
+    text-decoration: none;
+    color: #1C6330;
+}
+section#novo > h1{
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    background-color: #b4f7da9f ;
+    margin: 10px 10px 0px 10px;
+    color: #1C6330;
+}
+section#novo > p{
+    text-align: left;
+    padding-left: 10px;
+}
+section#novo > p > a{
+    text-decoration: none;
+    color: #1C6330;
+}
+section#final{
+    background-color: #90c7af9f;
+    margin: 0px 20px 10px 20px;
+    border-radius: 10px;
+}
+section#final > h1{
+    background-color: #488f70bb ;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-align: left;
+    padding-left: 10px ;
+}
+section#final > p {
+    text-align: left;
+    padding: 5px 10px;
+}
+section#final > p > a {
+    text-decoration: none;
+    color: #1C6330;
+}
+section#final > ul {
+    text-align: left;
+    padding-left: 30px;
+}
+footer{
+    margin:30px -10px -10px -10px;
+    color: white;
+    background-color:#4ea065;
+    display: block;
+    padding: 1px;
+    text-align: center;
+    font-weight: normal;
+}

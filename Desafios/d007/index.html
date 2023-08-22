@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Essa será minha melhor imagem flexível</h1>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/imagem-300.jpg" type="image/jpg">
+        <source media="(max-width: 800px)" srcset="imagens/imagem-500.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/imagem-800.jpg" type="image/jpg">
+        <source media="(max-width: 1200px)" srcset="imagens/imagem-1000.jpg" type="image/jpg">
+        <source media="(max-width: 1500px)" srcset="imagens/imagem-1200.jpg" type="image/jpg">
+        <source media="(max-width: 1700px)" srcset="imagens/imagem-1500.jpg" type="image/jpg">
+        <source media="(max-width: 2000px)" srcset="imagens/imagem-1700.jpg" type="image/jpg">
+        <img src="imagens/imagem-2000.jpg" alt="vista de um lago">
+    </picture>
+</body>
+</html>

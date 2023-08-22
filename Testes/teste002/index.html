@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste sobre Pseudo-Elements/class</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            background-color: #96CBF9;
+            color: #4BA69F;
+        }
+        h1{
+            text-align: center;
+            color: #9DF2EC;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        div > h1:hover{
+            color: #72afab;
+            font-size: 60px;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        h2{
+            text-align: right;
+            color: #9DF2EC;
+            font-size: 30px;
+            font-weight: normal;
+        }
+        div > h2:hover{
+            color: #4BA69F;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        div > p:active{
+            font-weight: bold;
+            color: #4BA69F;
+            font-size:medium;
+        }
+        div > p::first-letter{
+            color: #408f88;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Teste</h1>
+        <h2>teste 1.1</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta esse numquam eligendi maxime illum nam consequatur quidem, laudantium alias deserunt quod optio voluptatum magni. Quidem quia provident hic tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi obcaecati, nobis voluptate repellat voluptates nemo magni earum deserunt suscipit corporis iure sunt blanditiis vel quos aut, magnam, minima possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusantium libero, nisi, mollitia autem ipsam iusto quibusdam at eos provident cumque placeat. Laboriosam saepe obcaecati, voluptatum sapiente neque culpa tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt blanditiis deleniti, consequatur asperiores veniam quae eos quidem earum aperiam dolore quibusdam inventore, iste impedit nostrum, repudiandae illum corporis doloribus? Iste.</p>
+        <h2>teste 1.2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis minima vitae eos reprehenderit distinctio quam qui, perferendis magnam accusantium. Impedit, unde ea? Omnis id possimus inventore tempora nemo fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere magni amet? Nulla reprehenderit omnis dolorem doloremque facilis delectus placeat, modi pariatur accusamus dolor corrupti nesciunt neque rerum ducimus possimus!</p>
+        <h1>Teste 2</h1>
+        <h2>teste 2.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis obcaecati explicabo ratione iusto autem officia alias architecto quas iste consequuntur est expedita repudiandae eius magnam sit, quis, et error. Dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem id aliquam deserunt illum doloremque minima. Magni distinctio hic numquam quibusdam. Nemo iste hic aliquid voluptatem velit quae deserunt eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi iure possimus labore animi rem repellat magnam, est ab blanditiis quia facere! Magni eaque, saepe tempore rerum id mollitia distinctio.</p>
+    <h2>teste 2.2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic minus distinctio similique provident consequuntur? Possimus pariatur inventore doloribus dicta, omnis quam reiciendis. Fugiat quibusdam sequi quae aperiam itaque iure labore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam provident sint doloribus cupiditate id, sunt deserunt exercitationem, facere harum ab veniam placeat consectetur debitis ratione, a sed dolorem dolorum officia!</p>
+        <h2>teste 2.3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi aut voluptatibus similique consequatur eum architecto iure! Molestias beatae fugit a voluptatibus porro autem mollitia assumenda aut. Nobis, nostrum quisquam.</p>
+    </div>
+</body>
+</html>

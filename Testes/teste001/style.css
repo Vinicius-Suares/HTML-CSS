@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+*{
+
+}
+
+body{
+    background-color: #9fbdfd;
+}
+
+h1{
+    font-size: 3em;
+    font-family:Caprasimo;
+    color: #B0924C;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+} 
+h2{
+    font-size: 2em;
+    font-family:Caprasimo;
+    color: #B0924C;
+    font-weight: 500;
+    font-style: normal;
+}
+h3{
+    font-size: 1em;
+    font-family:Caprasimo;
+    color:#B0924C;
+    font-weight: 500;
+    font-style: normal;
+}
+p{
+    color: #FCE09F;
+}
+video{
+    margin: auto;
+    padding-left: 100px;
+    border-radius: 30px;
+    box-shadow: black(10px 10px 10px 3%);
+}
+
+audio{
+    margin: auto;
+    padding-left: 100px;
+    border-radius: 50px;
+    box-shadow: black(10px 10px 10px 3%);
+}
+ul{
+    color: #FCE09F;
+}
